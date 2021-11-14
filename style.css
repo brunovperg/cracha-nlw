@@ -27,6 +27,7 @@ html,
 body {
   --grey: hsl(240, 9%, 89%);
   --black-color: hsl(250, 6%, 13%);
+  background: black;
 
   height: 100%;
   font-family: var(--title-font);
@@ -38,14 +39,10 @@ body {
 }
 
 main {
-  background: url(images/Mobile.svg);
-  width: 375px;
-  height: 100%;
-  border-radius: 15px;
-}
-
-ul#jobLinks {
-  margin: 0;
+  background: url(images/Mobile.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
